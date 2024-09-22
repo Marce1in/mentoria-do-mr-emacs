@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #121212;
+    color: #A1A1A1;
+    font-family: monospace;
+}
+
+.seletor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    select {
+        cursor: pointer;
+        background: #121212;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+
+        &:disabled{
+            color: gray;
+        }
+    }
+}
+
+.cotacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    #pais{
+        color: #FFEE8C;
+    }
+
+    & h1 {
+        color: #FFFFFF;
+        font-size: 10vw;
+        margin-top: -1vw;
+        margin-bottom: -1vw;
+    }
+    & sub, sup {
+        font-size: 1rem;
+    }
+}

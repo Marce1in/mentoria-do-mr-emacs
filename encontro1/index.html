@@ -1,10 +1,42 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
     <head>
         <link rel="stylesheet" href="./style.css">
-        <script src="./index.js"> </script>
+        <script src="./script.js"> </script>
+        <meta charset="UTF-8">
+        <title id='titulo'>Moeda em Real</title>
+        <link rel="icon" type="image/x-icon" href="./imgs/dolar.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
     </head>
 
     <body>
-        <h1 id="dolar">5.0</h1>
+        <form class='seletor'>
+            <select id="seletor">
+            </select>
+        </form>
+
+        <header class='cotacao'>
+            <div>
+                <sup>
+                    Um(a)
+                    <span id='pais'>
+                    Carregando...
+                    </span>
+                    está valendo
+                </sup>
+                <h1 id='cotacao'>
+                    Carregando...
+                </h1>
+                <sub>
+                    No Brasil
+                </sub>
+            </div>
+        </header>
     </body>
+
+    <!-- Icone do site criado por esse lindo homem: -->
+    <!-- <a href="https://www.flaticon.com/br/icones-gratis/dinheiro" title="dinheiro ícones"> -->
+    <!--     Dinheiro ícones criados por surang - Flaticon -->
+    <!-- </a> -->
 </html>
